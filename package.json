@@ -1,0 +1,19 @@
+{
+  "name": "ng-generator",
+  "version": "1.0.0",
+  "description": "Generator of components for iDeals VDR web app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "vdr": "./index.js"
+  },
+  "keywords": [
+    "cli",
+    "vdr",
+    "angularjs"
+  ],
+  "author": "Kostiantyn Dyha <konstantin.dyga@idealscorp.com>",
+  "license": "ISC"
+}
