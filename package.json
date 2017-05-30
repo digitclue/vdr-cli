@@ -15,5 +15,13 @@
     "angularjs"
   ],
   "author": "Kostiantyn Dyha <konstantin.dyga@idealscorp.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-template": "^4.0.0",
+    "inquirer": "^3.0.6",
+    "lodash": "^4.17.4",
+    "yargs": "^8.0.1"
+  }
 }
