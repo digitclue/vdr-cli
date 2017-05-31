@@ -1,17 +1,17 @@
-import templateUrl from './<%= name %>.tpl.html'
-import './<%= name %>.scss'
+import templateUrl from './<%= camelName %>.tpl.html'
+import './<%= camelName %>.scss'
 
-class <%= upCaseName %>Controller {
+class <%= classifiedName %>Controller {
     constructor() {
         'ngInject';
 
-        this.name = '<%= name %>';
+        this.name = '<%= camelName %>';
     }
 }
 
-export const <%= upCaseName %>Component = {
+export const <%= classifiedName %>Component = {
     bindings: {},
     templateUrl,
-    controller: <%= upCaseName %>Controller,
+    controller: <%= classifiedName %>Controller,
     controllerAs: 'vm'
 };
