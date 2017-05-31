@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "Generator of components for iDeals VDR web app",
   "main": "index.js",
-  "repository" : {
-    "type" : "git",
-    "url" : "ssh://git@bitbucket.idealscorp.com:7999/utils/ng-generator.git"
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@bitbucket.idealscorp.com:7999/utils/ng-generator.git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -25,8 +25,6 @@
     "lodash": "^4.17.4",
     "yargs": "^8.0.1"
   },
-  "devDependencies": {
-    "@types/yargs": "^6.6.0"
-  },
+  "devDependencies": {},
   "preferGlobal": true
 }
