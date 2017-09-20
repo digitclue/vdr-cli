@@ -2,6 +2,7 @@
 const fs = require('fs');
 const path = require('path');
 const ejs = require('ejs');
+const chalk = require('chalk');
 
 const {
   kebabCase,
@@ -9,6 +10,8 @@ const {
 } = require('lodash');
 
 const cap = val => val.charAt(0).toUpperCase() + val.slice(1);
+
+const { green } = chalk.bold;
 
 class Blueprint {
   constructor(blueprint, name) {
@@ -66,6 +69,8 @@ class Blueprint {
         if (err) {
           reject(err);
         }
+
+        console.log(`${green('create')} ${path.relative(process.cwd(), filepath)}`);
 
         resolve();
       });
