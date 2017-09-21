@@ -1,6 +1,6 @@
 {
   "name": "vdr-cli",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Utils for iDeals Solution",
   "main": "index.js",
   "repository": {
