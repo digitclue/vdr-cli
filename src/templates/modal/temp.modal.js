@@ -1,15 +1,15 @@
-import templateUrl from './<%= name %>.tpl.html'
+import templateUrl from './<%= camelName %>.tpl.html';
 
-import './<%= name %>.scss'
+import './<%= camelName %>.scss';
 
-class <%= upCaseName %>Controller{
-    constructor($modalInstance){
+class <%= classifiedName %>Controller {
+    constructor($modalInstance) {
         'ngInject';
 
         this.$uibModalInstance = $modalInstance;
     }
 
-    dismissModal(e){
+    dismissModal(e) {
         e.preventDefault();
 
         this.$uibModalInstance.dismiss('Cancel');
@@ -17,12 +17,12 @@ class <%= upCaseName %>Controller{
 }
 
 
-export default {
+export const <%= classifiedName %>Modal = {
     templateUrl,
-    controller: <%= upCaseName %>Controller,
+    controller: <%= classifiedName %>Controller,
     controllerAs: 'vm',
     keyboard: false,
     backdrop: 'static',
-    windowClass: '<%= kebabCaseName %>',
-    resolve: {}
+    windowClass: '<%= kebabName %>',
+    resolve: {},
 };
