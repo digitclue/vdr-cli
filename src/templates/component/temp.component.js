@@ -1,5 +1,5 @@
-import templateUrl from './<%= camelName %>.tpl.html'
-import './<%= camelName %>.scss'
+import templateUrl from './<%= camelName %>.tpl.html';
+import './<%= camelName %>.scss';
 
 class <%= classifiedName %>Controller {
     constructor() {
@@ -13,5 +13,5 @@ export const <%= classifiedName %>Component = {
     bindings: {},
     templateUrl,
     controller: <%= classifiedName %>Controller,
-    controllerAs: 'vm'
+    controllerAs: 'vm',
 };
